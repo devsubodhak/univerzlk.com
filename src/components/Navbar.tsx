@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -44,13 +43,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* ─── Logo ─── */}
           <Link href="/" className="flex items-center gap-3 group">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/logo.png"
               alt="Univerz"
-              width={140}
-              height={48}
               className="h-10 w-auto transition-transform group-hover:scale-105"
-              priority
             />
           </Link>
 

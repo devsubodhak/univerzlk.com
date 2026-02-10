@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import {
   Mail,
   Phone,
@@ -32,11 +31,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-5">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/logo.png"
                 alt="Univerz"
-                width={130}
-                height={44}
                 className="h-10 w-auto brightness-0 invert"
               />
             </Link>
