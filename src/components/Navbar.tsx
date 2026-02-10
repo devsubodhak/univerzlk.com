@@ -47,8 +47,11 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="Univerz"
-              className="h-10 w-auto transition-transform group-hover:scale-105"
+              className="h-11 w-11 rounded-xl shadow-md object-cover transition-transform group-hover:scale-105"
             />
+            <span className="text-xl font-bold text-navy tracking-tight hidden sm:block">
+              Univerz
+            </span>
           </Link>
 
           {/* ─── Desktop Links ─── */}

@@ -30,13 +30,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-5">
+            <Link href="/" className="inline-flex items-center gap-3 mb-5">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo.png"
                 alt="Univerz"
-                className="h-10 w-auto brightness-0 invert"
+                className="h-11 w-11 rounded-xl shadow-md object-cover"
               />
+              <span className="text-xl font-bold text-white tracking-tight">
+                Univerz
+              </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               From the shutter click to the server hit—we handle your entire
