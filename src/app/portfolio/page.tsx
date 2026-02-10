@@ -37,7 +37,7 @@ import SectionHeading from "@/components/SectionHeading";
    },
    ───────────────────────────────────────────────────────────── */
 
-const portfolioItems = [
+const portfolioItems: any[] = [
   // ──── ADD YOUR PROJECTS BELOW ────
 
   // {
